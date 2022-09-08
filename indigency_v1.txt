@@ -1,0 +1,54 @@
+Title: Indigency "Flowchart"
+Author: [your name]
+Before: <link rel="stylesheet" type="text/css" href="https://suffolklitlab.org/howto/qna/style/style.css">
+<div id="icon" style="background-size: 110px 99px;background-image: url('https://suffolklitlab.org/howto/qna/images/maxheadroom.gif');"></div>
+<h2 style="text-align:center;">Indigency "Flowchart"</h2>
+<p><b>This is a <a href="https://www.codingthelaw.org/level/2/#mission_p1">class project</a>. You should not rely on it as a source of legal information!</b></p>
+<p>Answer the following questions to see if you qualify for appointed counsel in [insert state name].</p>
+    Title: Qualification for Missouri Public Defender 
+Author:Robert Little 
+Description:
+
+Q(1): Do you want a Public Defender 
+A:Yes 
+	Q(1.1):GOTO:earners 
+A:no 
+	Q(1.2): then look for private counsel 
+Q(earners): How many people are in your home
+A:1
+	Q(2.1):GOTO:uno
+A:2 
+	Q(2.2):GOTO:dos
+A:3
+	Q(2.3):GOTO:tres
+A:4
+	Q(2.4):GOTO:quatro
+A:5  
+	Q(2.5):GOTO:cinco
+Q(uno):Do you make more than $20,385 when you add your salary and the yearly income of your spouse not separated by divorce?
+A:yes
+	Q(3.1):GOTO:eligible 
+A:No
+	Q(3.2):GOTO:not
+Q(dos):Do you make more than $27,465 when you add your salary and the yearly income of your spouse not separated by divorce?
+A:yes
+	Q(4.1):GOTO:eligible 
+A:No
+	Q(4.2):GOTO:not
+Q(tres):Do you make more than $34,545 when you add your salary and the yearly income of your spouse not separated by divorce?
+A:yes
+	Q(5.1):GOTO:eligible 
+A:No
+	Q(5.2):GOTO:not
+Q(quatro):Do you make more than $41,625 when you add your salary and the yearly income of your spouse not separated by divorce?
+A:yes
+	Q(6.1):GOTO:eligible 
+A:No
+	Q(6.2):GOTO:not
+Q(cinco):Do you make more than $48,705 when you add your salary and the yearly income of your spouse not separated by divorce?
+A:yes
+	Q(7.1):GOTO:eligible 
+A:No
+	Q(7.2):GOTO:not
+Q(eligible): you should be able to get a public defender and should request one at the next hearing
+Q(not):you are not instantly able to obtain a public defender however you can file an application on the public defenders website. 
